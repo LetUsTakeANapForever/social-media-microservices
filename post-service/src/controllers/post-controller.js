@@ -1,5 +1,6 @@
 const Post = require("../models/post");
 const logger = require("../utils/logger");
+const { publishEvent } = require("../utils/rabbitmq");
 const { validateCreatePost } = require("../utils/validation");
 
 // Delete (invalidate) the cahche to prevent stale data (= out of sync data) and ensure data consistency
@@ -154,6 +155,14 @@ const deletePost = async (req, res) => {
                 success: false,
             });
         }
+
+        // publish post delete method
+        await publishEvent(
+            'post.deleted', {
+            postId: post._id,
+            userId: req.user.userId,
+            mediaIds: post.mediaIds,
+        });
 
         await invalidatePostCache(req, req.params.id);
 
