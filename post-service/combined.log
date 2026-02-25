@@ -400,3 +400,48 @@
 {"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2026-02-24T07:56:30.739Z"}
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T07:56:30.739Z"}
 {"level":"info","message":"Hit Get all post endpoint...","service":"post-service","timestamp":"2026-02-24T07:56:30.740Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T09:59:29.156Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2026-02-24T09:59:29.160Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T09:59:29.777Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:02:08.158Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:02:08.159Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:02:08.164Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:02:08.216Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:02:08.220Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:02:49.341Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:02:49.342Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:02:49.343Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:02:49.404Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:02:49.405Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2026-02-24T10:06:24.621Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:06:24.621Z"}
+{"level":"info","message":"Hit Get all post endpoint...","service":"post-service","timestamp":"2026-02-24T10:06:24.622Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/699d7749fdf392bcc533226d","service":"post-service","timestamp":"2026-02-24T10:06:40.768Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:06:40.768Z"}
+{"level":"info","message":"Hit Delete post endpoint...","service":"post-service","timestamp":"2026-02-24T10:06:40.769Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2026-02-24T10:06:40.853Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:07:44.399Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:07:44.399Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:07:44.400Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:07:44.451Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:07:44.452Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:07:47.147Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:07:47.147Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:07:47.148Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:07:47.218Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:07:47.220Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:07:49.531Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:07:49.531Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:07:49.532Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:07:49.575Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:07:49.576Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:07:53.859Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:07:53.860Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:07:53.861Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:07:53.916Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:07:53.917Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2026-02-24T10:07:56.566Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2026-02-24T10:07:56.567Z"}
+{"level":"info","message":"Hit Create post endpoint...","service":"post-service","timestamp":"2026-02-24T10:07:56.568Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2026-02-24T10:07:56.637Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2026-02-24T10:07:56.638Z"}

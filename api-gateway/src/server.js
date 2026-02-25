@@ -98,7 +98,7 @@ app.use(
         ...proxyOptions,
         proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
             proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-            if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+            if (!srcReq.headers["Content-Type"].startsWith("multipart/form-data")) {
                 proxyReqOpts.headers["Content-Type"] = "application/json";
             }
             return proxyReqOpts;
@@ -110,6 +110,28 @@ app.use(
             return proxyResData;
         },
         parseReqBody: false, // Stops the proxy from parsing the body into an object, ensuring the binary file data remains an intact stream for the Media Service
+    })
+);
+
+//setting up proxy for our search service
+app.use(
+    "/v1/search",
+    validateToken,
+    proxy(process.env.SEARCH_SERVICE_URL, {
+        ...proxyOptions,
+        proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+            proxyReqOpts.headers["Content-Type"] = "application/json";
+            proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+
+            return proxyReqOpts;
+        },
+        userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+            logger.info(
+                `Response received from Search service: ${proxyRes.statusCode}`
+            );
+
+            return proxyResData;
+        },
     })
 );
 
@@ -125,6 +147,9 @@ app.listen(PORT, () => {
     );
     logger.info(
         `Media service is running on port ${process.env.MEDIA_SERVICE_URL}`
+    );
+    logger.info(
+        `Search service is running on port ${process.env.SEARCH_SERVICE_URL}`
     );
     logger.info(`Redis Url ${process.env.REDIS_URL}`);
 });

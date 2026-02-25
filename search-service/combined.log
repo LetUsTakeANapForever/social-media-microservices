@@ -1,0 +1,140 @@
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:00:28.968Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:00:29.013Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:00:29.028Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:00:29.047Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:00:29.050Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:00:29.595Z"}
+{"level":"info","message":"Search post created: 699d7720fdf392bcc533226b","service":"post-service","timestamp":"2026-02-24T10:02:08.282Z"}
+{"level":"info","message":"Search post created: 699d7749fdf392bcc533226d","service":"post-service","timestamp":"2026-02-24T10:02:49.447Z"}
+{"level":"info","message":"Search post deleted: 699d7749fdf392bcc533226d","service":"post-service","timestamp":"2026-02-24T10:06:40.910Z"}
+{"level":"info","message":"Search post created: 699d7870fdf392bcc5332272","service":"post-service","timestamp":"2026-02-24T10:07:44.500Z"}
+{"level":"info","message":"Search post created: 699d7873fdf392bcc5332274","service":"post-service","timestamp":"2026-02-24T10:07:47.265Z"}
+{"level":"info","message":"Search post created: 699d7875fdf392bcc5332276","service":"post-service","timestamp":"2026-02-24T10:07:49.622Z"}
+{"level":"info","message":"Search post created: 699d7879fdf392bcc5332278","service":"post-service","timestamp":"2026-02-24T10:07:53.961Z"}
+{"level":"info","message":"Search post created: 699d787cfdf392bcc533227a","service":"post-service","timestamp":"2026-02-24T10:07:56.683Z"}
+{"level":"info","message":"Received GET request to /api/search","service":"post-service","timestamp":"2026-02-24T10:08:39.983Z"}
+{"level":"info","message":"Request body: {\"content\":\"Test post after search service implementation5\"}","service":"post-service","timestamp":"2026-02-24T10:08:39.983Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:08:54.299Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:08:54.310Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:08:54.321Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:08:54.341Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:08:54.343Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:08:54.965Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"post-service","timestamp":"2026-02-24T10:09:15.799Z"}
+{"level":"info","message":"Request body: {\"content\":\"Test post after search service implementation5\"}","service":"post-service","timestamp":"2026-02-24T10:09:15.799Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:09:15.804Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"post-service","timestamp":"2026-02-24T10:10:00.652Z"}
+{"level":"info","message":"Request body: {\"query\":\"search\"}","service":"post-service","timestamp":"2026-02-24T10:10:00.653Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:10:00.654Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:10:21.839Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:10:21.849Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:10:21.883Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:10:21.897Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:10:21.899Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:10:22.380Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:10:24.349Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:10:24.364Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:10:24.376Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:10:24.390Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:10:24.392Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:10:24.916Z"}
+{"level":"info","message":"Received GET request to /api/search/posts","service":"post-service","timestamp":"2026-02-24T10:10:28.088Z"}
+{"level":"info","message":"Request body: {\"query\":\"search\"}","service":"post-service","timestamp":"2026-02-24T10:10:28.089Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:10:28.092Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=search","service":"post-service","timestamp":"2026-02-24T10:11:25.123Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:11:25.123Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:11:25.125Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=1","service":"post-service","timestamp":"2026-02-24T10:11:47.473Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:11:47.473Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:11:47.474Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=1","service":"post-service","timestamp":"2026-02-24T10:11:50.365Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:11:50.365Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:11:50.366Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:11:50.367Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=%221%22","service":"post-service","timestamp":"2026-02-24T10:11:54.654Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:11:54.654Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP: ::1","service":"post-service","timestamp":"2026-02-24T10:11:54.656Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:12:07.348Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:12:07.369Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:12:07.386Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:12:07.401Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:12:07.403Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:12:07.959Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=%221%22","service":"post-service","timestamp":"2026-02-24T10:12:07.993Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:12:07.994Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:12:07.998Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=%22implmentation1%22","service":"post-service","timestamp":"2026-02-24T10:12:25.722Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:12:25.722Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:12:25.724Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:12:32.084Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:12:32.085Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:12:32.086Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:12:40.637Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:12:40.650Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:12:40.667Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:12:40.690Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:12:40.692Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:12:41.330Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:12:41.346Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:12:41.347Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP: ::1","service":"post-service","timestamp":"2026-02-24T10:12:41.350Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:13:02.037Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:13:02.052Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:13:02.082Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:13:02.095Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:13:02.097Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:13:02.402Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:02.402Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:02.407Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:13:02.408Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:13:02.579Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:13:04.471Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:04.471Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:04.473Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:13:04.473Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:13:05.773Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:05.773Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:05.774Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:13:05.775Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:13:06.835Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:06.835Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:06.836Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:13:06.837Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=search","service":"post-service","timestamp":"2026-02-24T10:13:12.555Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:12.555Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:12.556Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:13:12.557Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=search","service":"post-service","timestamp":"2026-02-24T10:13:14.763Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:14.764Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP: ::1","service":"post-service","timestamp":"2026-02-24T10:13:14.765Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:13:23.470Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:13:23.487Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:13:23.498Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:13:23.511Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:13:23.524Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:13:23.985Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=search%20service","service":"post-service","timestamp":"2026-02-24T10:13:25.180Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:25.181Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:25.185Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=search%20service","service":"post-service","timestamp":"2026-02-24T10:13:28.049Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:13:28.050Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:13:28.051Z"}
+{"level":"info","message":"Returning search results from cache","service":"post-service","timestamp":"2026-02-24T10:13:28.052Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:13:32.398Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:13:32.419Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:13:32.432Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:13:32.447Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:13:32.451Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:13:32.964Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation","service":"post-service","timestamp":"2026-02-24T10:15:34.750Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:15:34.750Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:15:34.754Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=implementation1","service":"post-service","timestamp":"2026-02-24T10:15:41.649Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2026-02-24T10:15:41.649Z"}
+{"level":"info","message":"Hitting Search endpoint...","service":"post-service","timestamp":"2026-02-24T10:15:41.651Z"}
+{"level":"info","message":"Connected to Redis","service":"post-service","timestamp":"2026-02-24T10:16:07.212Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2026-02-24T10:16:07.226Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2026-02-24T10:16:07.238Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2026-02-24T10:16:07.251Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2026-02-24T10:16:07.256Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-02-24T10:16:07.773Z"}
