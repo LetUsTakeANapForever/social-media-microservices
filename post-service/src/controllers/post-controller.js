@@ -1,4 +1,4 @@
-const Post = require("../models/post");
+const Post = require("../models/Post");
 const logger = require("../utils/logger");
 const { publishEvent } = require("../utils/rabbitmq");
 const { validateCreatePost } = require("../utils/validation");
