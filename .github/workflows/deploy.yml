@@ -29,6 +29,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and push Docker images
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         run: |
           docker-compose -f docker-compose.ci.yml build
           docker-compose -f docker-compose.ci.yml push
